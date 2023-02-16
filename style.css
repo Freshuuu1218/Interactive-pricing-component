@@ -239,4 +239,14 @@ main{
         flex-direction: column;
         justify-content: space-evenly;
     }
+    .benefits button:hover{
+        color: white;
+        cursor: pointer;
+    }
+    .slider::-webkit-slider-thumb:hover{
+        background-color: hsl(174, 86%, 35%);
+    }
+    .billing label:hover{
+        cursor: pointer;
+    }
 }
